@@ -48,7 +48,7 @@
     <li class="nav-item active">
         <a class="nav-link" href="index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <span>Home</span></a>
     </li>
 
     <!-- Divider -->
