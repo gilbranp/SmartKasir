@@ -176,7 +176,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 350px;
+  width: 260px;
   height: 300px !important;
   color: white;
   border-radius: 10px;
@@ -210,4 +210,22 @@ header {
   align-items: center;
   gap: 6px;
   text-decoration: none;
+}
+.footer {
+  background-color: #aa7d64;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #936d06;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for links in the footer */
+.footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
