@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+				initial-scale=1.0"
+    />
+    <title>Smart Kasir</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- for header part -->
+    <header>
+      <div class="logosec">
+        <div class="menu" id="menu" alt="menu-icon"><i class="fas fa-bars"></i></div>
+        <div class="logo">SMART KASIR</div>
+      </div>
+
+      <div class="profile">
+        <div class="profile-photo">
+          <img src="https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png" class="profile-img" alt="dp" />
+        </div>
+        <div class="profile-name">Radenta</div>
+        <i class="fas fa-angle-down"></i>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="navcontainer">
+        <nav class="nav">
+          <div class="nav-upper-options">
+            <a href="index.html">
+            <div class="nav-option option3">
+              <i class="fas fa-home"></i>
+              <h3>Dashboard</h3>
+            </div>
+            </a>
+            <a href="datamaster.html">
+                <div class="nav-option option2">
+                  <i class="fas fa-database"></i>
+                  <h3>Data Master</h3>
+                </div>
+                </a>
+            <a href="transaksi.html">
+            <div class="nav-option option4">
+              <i class="fas fa-money-bill-wave"></i>
+              <h3>Transaksi</h3>
+            </div>
+            </a>
+            <div class="nav-option option4">
+              <i class="fas fa-cogs"></i>
+              <h3>Pengaturan Toko</h3>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="main-title">Profile Pengguna Aplikasi</div>
+
+        <div class="box-container">
+          <div class="card">
+            <div class="card-header">Daftar Barang</div>
+            <div class="card-content">17</div>
+            <a href="www.gilbranid.my.id" class="card-action">Table Barang<i class="fas fa-angle-double-right"></i></a>
+          </div>
+        </div>
+        <div class="footer">
+          <p>&copy; 2023 Smart Kasir.</p>
+          <p><a href="https://gilbranid.my.id">Web SK</a> | <a href="https://gilbranidsoftwareengnr.blogspot.com">Blogspot</a></p>
+        </div>
+      </div>
+    </div>
+    <script>
+      let menuicn = document.querySelector(".menu");
+      let nav = document.querySelector(".navcontainer");
+
+      menuicn.addEventListener("click", () => {
+        nav.classList.toggle("navclose");
+      });
+    </script>
+	
+  </body>
+</html>

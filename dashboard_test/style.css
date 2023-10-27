@@ -55,6 +55,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  position: relative;
 }
 
 .profile-name {
@@ -75,6 +76,19 @@ header {
 .profile-img {
   height: 42px;
 }
+.profile-container{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* position: relative; */
+  
+}
+.dropoption{
+  position: absolute;
+  left: 80px !important;
+
+}
+
 
 /* CONTAINER */
 .main-container {
@@ -234,7 +248,7 @@ h3{
 
 /* Style for links in the footer */
 .footer a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -254,8 +268,20 @@ h3{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  right: 0px;
+  top: 50px;
+
 }
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
   display: block;
+} */
+.drpdn{
+  border: none !important;
+  width: 18px !important;
+  z-index: 999 !important;
+
+}
+.dropoption option{
+width: 100px !important;
 }
