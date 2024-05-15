@@ -1,4 +1,4 @@
-dashboard sederhana dengan menggunakan html,css,dan javascript
+dashboard sederhana dengan menggunakan php,html,css,dan javascript
 
 silahkan kalau mau memakai,smoga bermanfaat
 
